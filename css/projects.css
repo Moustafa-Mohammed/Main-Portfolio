@@ -1,0 +1,51 @@
+.projects {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.secondary-heading {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  margin-bottom: 20px;
+}
+
+.project-content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project:first-child {
+  background-color: #016972;
+}
+
+.project:nth-child(2) {
+  background-color: #65A4DA;
+}
+.project:nth-child(3) {
+  background-color: #E28525;
+}
+
+.project:last-child {
+  background-color: #00403f;
+}
+
+.project-name {
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+}
+
+.project-link {
+  margin-top: auto;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

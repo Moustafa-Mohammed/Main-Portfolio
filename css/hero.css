@@ -1,0 +1,25 @@
+.section {
+  padding: 60px 0;
+  font-size: 14px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.heading {
+  max-width: 780px;
+  font-size: 56px;
+  margin: 20px 0 60px 0;
+}
+
+.showcase-image {
+  width: 100%;
+  object-fit: contain;
+}
