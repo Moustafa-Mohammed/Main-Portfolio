@@ -26,7 +26,6 @@
 
 .grid {
   grid-template-columns: 1fr;
-  gap: 10px;
 }
 .project {
   margin-bottom: 10px;
