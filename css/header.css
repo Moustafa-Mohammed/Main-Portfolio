@@ -26,8 +26,44 @@ body {
   padding: 0 30px;
 }
 
+.relative {
+  position: relative;
+}
+
 .navbar .container {
   display: flex;
+}
+
+#hamburger-menu {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.line {
+  width: 30px;
+  height: 2px;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.line {
+  display: none;
+}
+
+#mid-line {
+  width: 60%;
+  transition: all 0.3s ease-in-out;
+}
+
+#hamburger-menu:hover #mid-line {
+  width: 100%;
+  background-color: #ffbf00;
 }
 
 .logo {

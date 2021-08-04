@@ -1,0 +1,33 @@
+.section {
+  padding: 30px 0;
+}
+
+.logo {
+  font-size: 22px;
+}
+
+.line {
+  display: block;
+}
+
+/* .nav-links {
+  display: none;
+} */
+
+.relative {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.open {
+  height: 25vh;
+}
