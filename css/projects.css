@@ -18,18 +18,18 @@
   flex-direction: column;
 }
 
-.project:first-child {
+.first {
   background-color: #016972;
 }
 
-.project:nth-child(2) {
+.second {
   background-color: #65a4da;
 }
-.project:nth-child(3) {
+.third {
   background-color: #e28525;
 }
 
-.project:last-child {
+.fourth {
   background-color: #00403f;
 }
 
@@ -45,6 +45,5 @@
 .project-image {
   display: block;
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }

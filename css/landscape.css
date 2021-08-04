@@ -2,6 +2,11 @@
   padding: 10px 0;
 }
 
+.left-aligned {
+  align-self: stretch;
+}
+
+
 .container {
   padding: 10px;
 }
@@ -21,6 +26,9 @@
 
 .grid {
   grid-template-columns: 1fr;
+}
+.project {
+  margin-bottom: 10px;
 }
 
 .project-name {
