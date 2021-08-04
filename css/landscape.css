@@ -6,7 +6,6 @@
   align-self: stretch;
 }
 
-
 .container {
   padding: 10px;
 }
@@ -33,4 +32,8 @@
 
 .project-name {
   font-size: 18px;
+}
+
+.project-image {
+  height: auto;
 }
