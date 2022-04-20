@@ -6,13 +6,13 @@
   font-size: 22px;
 }
 
-.line {
+.menu-line {
   display: block;
 }
 
-/* .nav-links {
+.nav-links {
   display: none;
-} */
+}
 
 .relative {
   display: flex;
