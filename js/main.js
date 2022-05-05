@@ -14,17 +14,24 @@ navLink.forEach((link) =>
   })
 );
 
-const projects = document.querySelectorAll(".project");
+const oddProjects = document.querySelectorAll(".odd");
+const evenProjects = document.querySelectorAll(".even");
 
-// window.addEventListener("scroll", () => {
-//   projects.forEach((p) => {
-//     const rect = p.getBoundingClientRect();
-//     if (rect.top < window.innerHeight) {
-//       p.classList.add("show-project");
-//     } else {
-//       p.classList.remove("show-project");
-//     }
-//   });
-// });
+window.addEventListener("scroll", () => {
+  oddProjects.forEach((p) => {
+    const rect = p.getBoundingClientRect();
+    if (rect.top < window.innerHeight) {
+      p.classList.add("animateLeft");
+    }
+  });
+});
+window.addEventListener("scroll", () => {
+  evenProjects.forEach((p) => {
+    const rect = p.getBoundingClientRect();
+    if (rect.top < window.innerHeight) {
+      p.classList.add("animateRight");
+    }
+  });
+});
 
 window.onload = () => window.scrollTo(0, 0);
