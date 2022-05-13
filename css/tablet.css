@@ -31,3 +31,7 @@
 .open {
   height: 25vh;
 }
+
+.project {
+  grid-template-columns: 1fr 1fr;
+}
